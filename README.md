@@ -1,4 +1,5 @@
 # oss-week02 — Node, JavaScript, npm
+# 이태희
 
 Week 2 hands-on for *Open Source Software Design and Lab* (Kwangwoon Univ., 2026).
 

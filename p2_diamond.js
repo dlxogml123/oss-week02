@@ -14,3 +14,10 @@ const n = Number(process.argv[2] ?? 5);
 // TODO: print the diamond with for / if and console.log.
 // Hint: for row i, count the spaces and the stars separately.
 // Hint: "*".repeat(3) gives "***".
+for(let i=0; i<n; i++){
+    if(i<=(n/2)){
+        console.log(" ".repeat((n - 1) / 2 - i) + "*".repeat(i * 2 + 1));
+    }else{
+        console.log(" ".repeat(i - (n - 1) / 2) + "*".repeat((n - i - 1) * 2 + 1));
+    }
+}
